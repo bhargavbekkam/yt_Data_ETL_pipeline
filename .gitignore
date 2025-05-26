@@ -1,0 +1,47 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.pytest_cache/
+*.mypy_cache/
+
+# Virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# AWS and cloud files
+*.csv
+*.json
+*.parquet
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# PyCharm project files
+*.iml
+
+# Output folders
+/output/
+/results/
+
+# Airflow local config and logs
+airflow.cfg
+logs/
+
+# Other
+*.bak
+*.swp
